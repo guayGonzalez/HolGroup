@@ -1,0 +1,23 @@
+@mixin flex($hor, $ver, $dir) {
+    display: flex;
+    justify-content: $hor;
+    align-items: $ver;
+    flex-direction: $dir;
+}
+
+@mixin buttonD ($color, $corners, $hover, $tColor, $tSize, $tWeight, $height, $width, $border) {
+    background-color: $color;
+    border-radius: $corners;
+    color: $tColor;
+    font-size: $tSize;
+    font-weight: $tWeight;
+    height: $height;
+    width: $width;
+    border: $border;
+
+    &:hover{
+
+        background-color: $hover;
+
+    }
+}

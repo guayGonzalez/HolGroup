@@ -1,0 +1,1229 @@
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_D_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_D_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_D_0.woff);
+  src: url(.../../../Assets/fonts/Gilroy/font/39312E_D_0.woff2);
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_C_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_C_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_C_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_C_0.woff2);
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_13_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_13_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_13_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_13_0.woff2);
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_12_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_12_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_12_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_12_0.woff2);
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_F_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_F_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_F_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_F_0.woff2);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_E_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_E_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_E_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_E_0.woff2);
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_11_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_11_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_11_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_11_0.woff2);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_10_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_10_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_10_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_10_0.woff2);
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_4_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_4_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_4_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_4_0.woff2);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_3_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_3_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_3_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_3_0.woff2);
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_9_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_9_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_9_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_9_0.woff2);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_8_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_8_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_8_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_8_0.woff2);
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_6_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_6_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_6_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_6_0.woff2);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_7_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_7_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_7_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_7_0.woff2);
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_B_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_B_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_B_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_B_0.woff2);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_A_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_A_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_A_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_A_0.woff2);
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_5_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_5_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_5_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_5_0.woff2);
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_1_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_1_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_1_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_1_0.woff2);
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_0_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_0_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_0_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_0_0.woff2);
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_2_0.ttf);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_2_0.eot);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_2_0.woff);
+  src: url(../../../Assets/fonts/Gilroy/font/39312E_2_0.woff2);
+  font-weight: 100;
+  font-style: italic;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Gilroy';
+  color: #27272C;
+  margin: 0;
+  padding: 0;
+}
+
+.Navbar {
+  width: 100vw;
+  height: 10vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: absolute;
+  z-index: 3;
+}
+
+.Navbar .logo {
+  width: 10vw;
+  height: 70%;
+  margin-left: 5vw;
+  margin-right: 0;
+}
+
+.Navbar .logo img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.Navbar .menu {
+  margin-right: 5vw;
+}
+
+.Navbar .menu ul li {
+  display: inline;
+  margin: 0px 20px;
+  padding: 5px 10px;
+}
+
+.Navbar .menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.Navbar .menu ul li:active {
+  border-width: 0;
+  border-bottom-width: 2px;
+  border-color: #5664FF;
+  border-style: solid;
+}
+
+.Navbar .menu ul li:hover {
+  border-width: 0;
+  border-bottom-width: 2px;
+  border-color: #5664FF;
+  border-style: solid;
+}
+
+.Navbar .menu ul .btn {
+  border: solid white 1px;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.Navbar .menu ul .btn:hover {
+  border-width: 2px;
+  border-color: #5664FF;
+}
+
+.Header {
+  background-color: #27272C;
+  height: 100vh;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Header .mainTitle {
+  width: 60%;
+  margin-left: 10%;
+  z-index: 1;
+}
+
+.Header .mainTitle h1 {
+  font-size: 130px;
+  color: white;
+  font-weight: bold;
+}
+
+.Header .mainTitle h1 span {
+  color: #FAAC3A;
+}
+
+.Header img {
+  width: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: absolute;
+  right: 5%;
+}
+
+.News {
+  width: 100vw;
+  height: 30vh;
+  margin-top: -15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.News .Main {
+  background: white;
+  height: 100%;
+  width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.News .Main .nInfo {
+  width: 65%;
+  height: 100%;
+}
+
+.News .Main .nInfo .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 75%;
+}
+
+.News .Main .nInfo .info p {
+  color: #676767;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: justify;
+  margin: 0px 10%;
+  max-width: 480px;
+}
+
+.News .Main .nInfo .more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 25%;
+}
+
+.News .Main .nInfo .more h6 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #27272C;
+}
+
+.News .Main .nInfo .more img {
+  height: 11px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.News .Main .nInfo .more img:hover {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+.News .Main img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.News .next {
+  width: 35vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.News .next .nextInfo {
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+  margin-left: 10%;
+}
+
+.News .next .nextInfo p {
+  font-size: 17px;
+  margin: 0;
+}
+
+.News .next .nextInfo h6 {
+  font-size: 30px;
+  margin: 25px 0px;
+}
+
+.News .next .nextControls {
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 10%;
+}
+
+.News .next .nextControls .prevArt {
+  height: 11px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 15px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.News .next .nextControls .prevArt:hover {
+  -webkit-transform: translateX(-10px);
+          transform: translateX(-10px);
+}
+
+.News .next .nextControls .nextArt {
+  height: 11px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.News .next .nextControls .nextArt:hover {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+.Experience {
+  margin: 25vh 0 10vh 0;
+}
+
+.Experience .Titles {
+  height: 20vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Experience .Titles h2 {
+  font-size: 114px;
+  font-weight: bold;
+  line-height: 120px;
+  margin: 0;
+}
+
+.Experience .Titles p {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 0;
+  text-align: justify;
+  width: 40vw;
+  max-width: 730px;
+}
+
+.Experience .Cards {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
+}
+
+.Experience .Cards .guide {
+  position: absolute;
+  height: 40vh;
+  width: 100vw;
+  background-color: #5664FF;
+}
+
+.Experience .Cards .rail {
+  height: 90vh;
+  width: 100vw;
+  overflow-x: scroll;
+}
+
+.Experience .Cards .rail .wrapper {
+  list-style: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Experience .Cards .rail .wrapper li {
+  margin: 0 30px;
+}
+
+.Experience .Cards .rail .wrapper .card {
+  height: 90%;
+  width: 35vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: lightblue;
+  background-size: cover;
+  z-index: 1;
+  -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  -webkit-transform: translatey(0px);
+          transform: translatey(0px);
+  -webkit-animation: float 6s ease-in-out infinite;
+          animation: float 6s ease-in-out infinite;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Experience .Cards .rail .wrapper .card img {
+  height: 15%;
+  max-height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 6% 0px 0px 6%;
+}
+
+.Experience .Cards .rail .wrapper .card h3 {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 6% 0px 0px 6%;
+}
+
+.Experience .Cards .rail .wrapper .card p {
+  font-size: 20px;
+  font-weight: 100;
+  text-align: justify;
+  color: #676767;
+  margin: 3% 10% 0px 6%;
+}
+
+.Experience .Cards .rail .wrapper .card button {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: absolute;
+  bottom: 6%;
+  background-color: #FBB03B;
+  border-radius: 0;
+  color: white;
+  font-size: 23px;
+  font-weight: 600;
+  height: 50px;
+  width: 280px;
+  border: none;
+}
+
+.Experience .Cards .rail .wrapper .card button:hover {
+  background-color: #FBB03B;
+}
+
+.Experience .Cards .rail .wrapper .card:hover {
+  height: 99%;
+  width: 38vw;
+  -webkit-animation: none;
+          animation: none;
+}
+
+.Experience .Cards .rail .wrapper .Alt {
+  background: lightcoral;
+  -webkit-animation: float 6s ease-in-out 3s infinite;
+          animation: float 6s ease-in-out 3s infinite;
+}
+
+.About {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.About .images {
+  height: 120vh;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.About .images .colorSec {
+  width: 35vw;
+  height: 110vh;
+  background: #27272C;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.About .images img {
+  height: 90vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  justify-self: flex-end;
+  position: absolute;
+  right: 50px;
+  -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+  -webkit-transform: translatey(0px);
+          transform: translatey(0px);
+  -webkit-animation: float2 6s ease-in-out infinite;
+          animation: float2 6s ease-in-out infinite;
+}
+
+.About .main {
+  height: 120vh;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.About .main .title {
+  font-size: 114px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.About .main .subtitle {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.About .main .desc {
+  font-size: 20px;
+  font-weight: 100;
+  text-align: justify;
+  margin-right: 10vw;
+}
+
+.About .main .bottom {
+  height: 40vh;
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+}
+
+.About .main .bottom .team {
+  width: 25vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.About .main .bottom .team .name {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.About .main .bottom .team .pos {
+  font-size: 20px;
+  font-weight: 100;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.About .main .bottom .team .more {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.About .main .bottom .team .more h6 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #27272C;
+  margin: 0;
+}
+
+.About .main .bottom .team .more img {
+  height: 11px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.About .main .bottom .team .more img:hover {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+.About .main .bottom .overFI {
+  position: absolute;
+  -o-object-fit: none;
+     object-fit: none;
+  height: 120vh;
+  width: 25vw;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  -webkit-box-shadow: 0 5px 15px 15px rgba(0, 0, 0, 0.6);
+          box-shadow: 0 5px 15px 15px rgba(0, 0, 0, 0.6);
+  -webkit-transform: translatey(0px);
+          transform: translatey(0px);
+  -webkit-animation: float2 6s ease-in-out infinite;
+          animation: float2 6s ease-in-out infinite;
+}
+
+.Contact {
+  height: 100vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Contact .main {
+  height: 100vh;
+  width: 60vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Contact .main h2 {
+  width: 30vw;
+  font-size: 114px;
+  font-weight: bold;
+  line-height: 120px;
+  margin: 0;
+}
+
+.Contact .main .contForm {
+  width: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 600px;
+}
+
+.Contact .main .contForm input {
+  height: 50px;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #676767;
+  color: #676767;
+  font-size: 20px;
+  padding-left: 10px;
+  font-weight: 500;
+  margin-bottom: 0.7em;
+}
+
+.Contact .main .contForm p {
+  color: #676767;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.Contact .main .contForm #message {
+  height: 15vh;
+  border: 1px solid #676767;
+  padding: 5px;
+}
+
+.Contact .main .contForm .more {
+  margin-top: 20px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.Contact .main .contForm .more h6 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #27272C;
+  margin: 0;
+}
+
+.Contact .main .contForm .more img {
+  height: 10px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Contact .main .contForm .more img:hover {
+  -webkit-transform: translateX(20px);
+          transform: translateX(20px);
+}
+
+.Contact .colorSec {
+  width: 40vw;
+  height: 45vh;
+  background: #5664FF;
+  margin-bottom: 10vh;
+}
+
+.Bottom {
+  height: 45vh;
+  width: 100vw;
+  position: relative;
+}
+
+.Bottom .colorSec {
+  height: 100%;
+  width: 45vw;
+  position: absolute;
+  left: 0;
+  background: #27272C;
+}
+
+.Bottom img {
+  height: 80%;
+  width: 80vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+footer {
+  height: 30vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .colorSec {
+  height: 25%;
+  width: 100vw;
+  background: #5664FF;
+}
+
+@media only screen and (max-width: 1500px) {
+  .Header .mainTitle h1 {
+    font-size: 100px;
+  }
+  .News .Main .nInfo .info p {
+    font-size: 16px;
+  }
+  .News .Main .nInfo .more h6 {
+    font-size: 25px;
+  }
+  .News .next .nextInfo p {
+    font-size: 15px;
+  }
+  .News .next .nextInfo h6 {
+    font-size: 25px;
+    margin: 20px 0px;
+  }
+  .Experience .Titles h2 {
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 95px;
+    margin: 0;
+  }
+  .Experience .Titles p {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+    text-align: justify;
+  }
+  .Experience .Cards .rail .wrapper .card h3 {
+    font-size: 23px;
+  }
+  .Experience .Cards .rail .wrapper .card p {
+    font-size: 15px;
+  }
+  .Experience .Cards .rail .wrapper .card button {
+    font-size: 17px;
+    height: 35px;
+    width: 190px;
+  }
+  .About .main .title {
+    font-size: 90px;
+  }
+  .About .main .subtitle {
+    font-size: 23px;
+  }
+  .About .main .desc {
+    font-size: 15px;
+  }
+  .About .main .bottom .team .name {
+    font-size: 16px;
+  }
+  .About .main .bottom .team .pos {
+    font-size: 16px;
+  }
+  .About .main .bottom .team .more h6 {
+    font-size: 25px;
+  }
+  .Contact .main h2 {
+    font-size: 90px;
+  }
+  .Contact .main .contForm input {
+    font-size: 16px;
+  }
+  .Contact .main .contForm p {
+    font-size: 16px;
+  }
+  .Contact .main .contForm .more h6 {
+    font-size: 25px;
+  }
+}
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translatey(-20px);
+            transform: translatey(-20px);
+  }
+  100% {
+    -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translatey(-20px);
+            transform: translatey(-20px);
+  }
+  100% {
+    -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+
+@-webkit-keyframes float2 {
+  0% {
+    -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-box-shadow: 0 15px 15px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 15px 15px 0px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translatey(-10px);
+            transform: translatey(-10px);
+  }
+  100% {
+    -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+  50% {
+    -webkit-box-shadow: 0 15px 15px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 15px 15px 0px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translatey(-10px);
+            transform: translatey(-10px);
+  }
+  100% {
+    -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+    -webkit-transform: translatey(0px);
+            transform: translatey(0px);
+  }
+}
+/*# sourceMappingURL=main.css.map */
