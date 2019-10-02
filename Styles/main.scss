@@ -153,6 +153,7 @@ body{
     margin-top: -15vh;
     display: flex;
     flex-direction: row;
+    @include AnimateShow(-100%, 0, 1s);
 
     .Main{
 
@@ -299,6 +300,9 @@ body{
 .Experience{
 
     margin: 25vh 0 10vh 0;
+
+    @include AnimateShow(-100%, 0, 1s);
+
 
     .Titles{
 
@@ -745,6 +749,8 @@ footer{
 
 }
 
+//Responsiveness
+
 @media only screen and (max-width: 1500px){
 
 .Header{
@@ -977,6 +983,495 @@ footer{
 
 }
 
+@media only screen and (max-width: 600px){
+
+.Navbar{
+
+    width: 100vw;
+    height: 100vh;
+    background-color: $superGrey;
+    position: fixed;
+    @include flex(flex-start, center, column);
+    display: none;
+
+    .logo{
+
+        height: 8vh;
+        margin-top: 2vh;
+        align-self: flex-start;
+        justify-self: flex-start;
+
+    }
+
+    .menu{
+
+        height: 80vh;
+        width: 100vw;
+        margin: 0;
+
+        ul{
+
+            height: 100%;
+            width: 100%;
+            @include flex(space-evenly, center,column);
+            margin: 0;
+            padding: 0;
+
+            li{
+
+                margin: 0;
+                padding: 0;
+
+                a{
+
+                    font-size: 1.6em;
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+.Header{
+
+    @include flex(flex-end, center, column);
+
+    .mainTitle{
+
+        margin: 0;
+        width: 90%;
+
+        h1{
+
+            font-size: 3em;
+            margin-bottom: 20%;
+
+        }
+
+    }
+
+    img{
+
+        height: 100vw;
+        width: auto;
+        right: auto;
+        bottom: 20%;
+        transform: rotate(-90deg);
+        position: absolute;
+
+    }
+
+}
+
+.News{
+
+    height:100vh;
+    margin: 0;
+    flex-direction: column;
+
+    .Main{
+
+        width: 100vw;
+        height: 80vh;
+        @include flex(center, center, column-reverse);
+
+        .nInfo{
+
+            width:100%;
+            height: 30vh;
+
+            .info{
+
+                height: 22vh;
+
+                p{
+    
+                    font-size: 0.9em;
+                    margin: 0 5%;
+    
+                }
+    
+            }
+
+            .more{
+
+                h6{
+
+                    font-size: 1.8em;
+
+                }
+
+                img{
+
+                    height: auto;
+                    width: 40%;
+                    
+
+                }
+
+            }
+
+        }
+
+        img{
+
+            width: 100%;
+            height: 40vh;
+            object-fit: cover;
+
+        }
+
+    }
+
+    .next{
+
+        width: 100vw;
+        align-items: center;
+
+        .nextInfo{
+
+            margin:0;
+            height: 23vh;
+            width: 100%;
+            color: $superGrey;
+            @include flex(space-evenly, center, column);
+
+                p{
+
+                    font-size: 15px;
+
+
+                }
+
+                h6{
+
+                    font-size: 25px;
+                    margin: 20px 0px;
+                    width: 60%;
+
+                }
+
+        }
+
+        .nextControls{
+
+            height:7vh;
+            margin: 0;
+
+        }
+
+    }
+
+}
+
+.Experience{
+
+    height: auto;
+    margin: 5vh 0;
+    position: relative;
+
+    .Titles{
+
+        height: 20vh;
+        @include flex(space-evenly, center, column);
+
+        h2{
+
+            font-size: 56px;
+            line-height: 60px;
+            margin: 0;
+
+        }
+
+        p{
+
+            font-size: 0.9em;
+            line-height: 1em;
+            width: 80vw;
+
+        }
+
+    }
+
+    .Cards{
+
+        height: 80vh;
+
+        .guide{
+
+            bottom: 0vh;
+            height: 20vh;
+
+        }
+
+        .rail{
+
+            height: 80vh;
+
+            .wrapper{
+
+                li{
+
+                    margin: 0;
+
+                }
+
+                .card{
+
+                    width: 100vw;
+                    height: 80%;
+
+                    h3{
+
+                        font-size: 23px;
+
+                    }
+
+                    p{
+
+                        font-size: 15px;
+
+                    }
+
+                    button{
+
+                        font-size: 17px;
+                        height: 35px;
+                        width: 190px;
+
+                    }
+
+                    &:hover{
+
+                        height: 80%;
+                        width: 100vw;
+                        animation: none;
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}
+
+.About{
+
+    flex-direction: column-reverse;
+
+    .images{
+
+        width: 100vw;
+        height: 70vh;
+        flex-direction: column-reverse;
+        position: relative;
+
+        .colorSec{
+
+            width: 100vw;
+            height: 20vh;
+
+        }
+
+        img{
+
+            height: 60vh;
+            width: 100vw;
+            object-fit: cover;
+            object-position: 50% 50%;
+            position: absolute;
+            bottom: 10vh;
+            animation: none;
+            right: 0;
+
+        }
+
+    }
+
+    .main{
+
+        width: 100vw;
+        @include flex(space-evenly, center, column);
+
+        .title{
+
+            font-size: 55px;
+
+        }
+
+        .subtitle{
+
+            font-size: 1.5em;
+
+        }
+
+        .desc{
+
+            font-size: 0.9em;
+            margin: 0 10vw;
+
+        }
+
+        .bottom{
+
+            width: 100vw;
+
+            .team{
+
+                width: 100vw;
+                @include flex(center, center, column);
+
+                .name{
+
+                    font-size:16px;
+
+                }
+
+                .pos{
+
+                    font-size:16px;
+                    margin-bottom: 15px;
+
+                }
+
+                .more{
+
+                    height: 10vh;
+                    width: 100vw;
+                    margin: 0;
+
+                    h6{
+    
+                        font-size: 1.6em;
+    
+                    }
+
+                }
+
+
+            }
+
+            .overFI{
+
+                display: none;
+
+            }
+
+        }
+
+    }
+
+}
+
+.Contact{
+
+    height: 80vh;
+
+    .main{
+
+        width: 100vw;
+        height: 100%;
+
+        h2{
+
+            font-size: 55px;
+            width: 60vw;
+
+        }
+
+        .contForm{
+
+            width: 90vw;
+            justify-content: center;
+            align-content: center;
+
+            input{
+
+                font-size: 0.9em;
+                width: 95%;
+
+            }
+
+            p{
+
+                font-size: 0.9em;
+
+            }
+
+            .more{
+
+                width: 90vw;
+
+                h6{
+
+                    font-size: 1.2em;
+
+                }
+
+            }
+
+        }
+
+    }
+
+    .colorSec{
+
+        display: none;
+
+    }
+
+}
+
+.Bottom{
+
+    width: 100vw;
+    height: 70vh;
+    flex-direction: column-reverse;
+    position: relative;
+    display: flex;
+
+    .colorSec{
+
+        width: 100vw;
+        height: 20vh;
+
+    }
+
+    img{
+
+        height: 60vh;
+        width: 100vw;
+        object-fit: cover;
+        object-position: 50% 50%;
+        position: absolute;
+        bottom: 10vh;
+        animation: none;
+        right: 0;
+
+    }
+}
+
+footer{
+
+    height: 20vh;
+    
+    .colorSec{
+
+        height: 10vh;
+
+    }
+
+}
+
+}
+
 //animations
 
 @keyframes float {
@@ -1008,3 +1503,4 @@ footer{
 		transform: translatey(0px);
     }
 }
+

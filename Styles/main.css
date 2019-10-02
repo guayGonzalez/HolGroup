@@ -263,14 +263,14 @@ body {
 .Navbar .menu ul li:active {
   border-width: 0;
   border-bottom-width: 2px;
-  border-color: #5664FF;
+  border-color: #009AFF;
   border-style: solid;
 }
 
 .Navbar .menu ul li:hover {
   border-width: 0;
   border-bottom-width: 2px;
-  border-color: #5664FF;
+  border-color: #009AFF;
   border-style: solid;
 }
 
@@ -282,7 +282,7 @@ body {
 
 .Navbar .menu ul .btn:hover {
   border-width: 2px;
-  border-color: #5664FF;
+  border-color: #009AFF;
 }
 
 .Header {
@@ -339,6 +339,34 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-animation: ShowIn 1s ease-in;
+          animation: ShowIn 1s ease-in;
+}
+
+@-webkit-keyframes ShowIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
+}
+
+@keyframes ShowIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
 }
 
 .News .Main {
@@ -530,6 +558,21 @@ body {
 
 .Experience {
   margin: 25vh 0 10vh 0;
+  -webkit-animation: ShowIn 1s ease-in;
+          animation: ShowIn 1s ease-in;
+}
+
+@keyframes ShowIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translate(-100%, 0);
+            transform: translate(-100%, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+  }
 }
 
 .Experience .Titles {
@@ -590,7 +633,7 @@ body {
   position: absolute;
   height: 40vh;
   width: 100vw;
-  background-color: #5664FF;
+  background-color: #009AFF;
 }
 
 .Experience .Cards .rail {
@@ -1018,7 +1061,7 @@ body {
 .Contact .colorSec {
   width: 40vw;
   height: 45vh;
-  background: #5664FF;
+  background: #009AFF;
   margin-bottom: 10vh;
 }
 
@@ -1065,9 +1108,9 @@ footer {
 }
 
 footer .colorSec {
-  height: 25%;
+  height: 26%;
   width: 100vw;
-  background: #5664FF;
+  background: #009AFF;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -1140,6 +1183,415 @@ footer .colorSec {
   }
   .Contact .main .contForm .more h6 {
     font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Navbar {
+    width: 100vw;
+    height: 100vh;
+    background-color: #27272C;
+    position: fixed;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: none;
+  }
+  .Navbar .logo {
+    height: 8vh;
+    margin-top: 2vh;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    justify-self: flex-start;
+  }
+  .Navbar .menu {
+    height: 80vh;
+    width: 100vw;
+    margin: 0;
+  }
+  .Navbar .menu ul {
+    height: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+  .Navbar .menu ul li {
+    margin: 0;
+    padding: 0;
+  }
+  .Navbar .menu ul li a {
+    font-size: 1.6em;
+  }
+  .Header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Header .mainTitle {
+    margin: 0;
+    width: 90%;
+  }
+  .Header .mainTitle h1 {
+    font-size: 3em;
+    margin-bottom: 20%;
+  }
+  .Header img {
+    height: 100vw;
+    width: auto;
+    right: auto;
+    bottom: 20%;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    position: absolute;
+  }
+  .News {
+    height: 100vh;
+    margin: 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .News .Main {
+    width: 100vw;
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .News .Main .nInfo {
+    width: 100%;
+    height: 30vh;
+  }
+  .News .Main .nInfo .info {
+    height: 22vh;
+  }
+  .News .Main .nInfo .info p {
+    font-size: 0.9em;
+    margin: 0 5%;
+  }
+  .News .Main .nInfo .more h6 {
+    font-size: 1.8em;
+  }
+  .News .Main .nInfo .more img {
+    height: auto;
+    width: 40%;
+  }
+  .News .Main img {
+    width: 100%;
+    height: 40vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .News .next {
+    width: 100vw;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .News .next .nextInfo {
+    margin: 0;
+    height: 23vh;
+    width: 100%;
+    color: #27272C;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .News .next .nextInfo p {
+    font-size: 15px;
+  }
+  .News .next .nextInfo h6 {
+    font-size: 25px;
+    margin: 20px 0px;
+    width: 60%;
+  }
+  .News .next .nextControls {
+    height: 7vh;
+    margin: 0;
+  }
+  .Experience {
+    height: auto;
+    margin: 5vh 0;
+    position: relative;
+  }
+  .Experience .Titles {
+    height: 20vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Experience .Titles h2 {
+    font-size: 56px;
+    line-height: 60px;
+    margin: 0;
+  }
+  .Experience .Titles p {
+    font-size: 0.9em;
+    line-height: 1em;
+    width: 80vw;
+  }
+  .Experience .Cards {
+    height: 80vh;
+  }
+  .Experience .Cards .guide {
+    bottom: 0vh;
+    height: 20vh;
+  }
+  .Experience .Cards .rail {
+    height: 80vh;
+  }
+  .Experience .Cards .rail .wrapper li {
+    margin: 0;
+  }
+  .Experience .Cards .rail .wrapper .card {
+    width: 100vw;
+    height: 80%;
+  }
+  .Experience .Cards .rail .wrapper .card h3 {
+    font-size: 23px;
+  }
+  .Experience .Cards .rail .wrapper .card p {
+    font-size: 15px;
+  }
+  .Experience .Cards .rail .wrapper .card button {
+    font-size: 17px;
+    height: 35px;
+    width: 190px;
+  }
+  .Experience .Cards .rail .wrapper .card:hover {
+    height: 80%;
+    width: 100vw;
+    -webkit-animation: none;
+            animation: none;
+  }
+  .About {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .About .images {
+    width: 100vw;
+    height: 70vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    position: relative;
+  }
+  .About .images .colorSec {
+    width: 100vw;
+    height: 20vh;
+  }
+  .About .images img {
+    height: 60vh;
+    width: 100vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 50%;
+       object-position: 50% 50%;
+    position: absolute;
+    bottom: 10vh;
+    -webkit-animation: none;
+            animation: none;
+    right: 0;
+  }
+  .About .main {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .About .main .title {
+    font-size: 55px;
+  }
+  .About .main .subtitle {
+    font-size: 1.5em;
+  }
+  .About .main .desc {
+    font-size: 0.9em;
+    margin: 0 10vw;
+  }
+  .About .main .bottom {
+    width: 100vw;
+  }
+  .About .main .bottom .team {
+    width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .About .main .bottom .team .name {
+    font-size: 16px;
+  }
+  .About .main .bottom .team .pos {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .About .main .bottom .team .more {
+    height: 10vh;
+    width: 100vw;
+    margin: 0;
+  }
+  .About .main .bottom .team .more h6 {
+    font-size: 1.6em;
+  }
+  .About .main .bottom .overFI {
+    display: none;
+  }
+  .Contact {
+    height: 80vh;
+  }
+  .Contact .main {
+    width: 100vw;
+    height: 100%;
+  }
+  .Contact .main h2 {
+    font-size: 55px;
+    width: 60vw;
+  }
+  .Contact .main .contForm {
+    width: 90vw;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+  .Contact .main .contForm input {
+    font-size: 0.9em;
+    width: 95%;
+  }
+  .Contact .main .contForm p {
+    font-size: 0.9em;
+  }
+  .Contact .main .contForm .more {
+    width: 90vw;
+  }
+  .Contact .main .contForm .more h6 {
+    font-size: 1.2em;
+  }
+  .Contact .colorSec {
+    display: none;
+  }
+  .Bottom {
+    width: 100vw;
+    height: 70vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .Bottom .colorSec {
+    width: 100vw;
+    height: 20vh;
+  }
+  .Bottom img {
+    height: 60vh;
+    width: 100vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 50% 50%;
+       object-position: 50% 50%;
+    position: absolute;
+    bottom: 10vh;
+    -webkit-animation: none;
+            animation: none;
+    right: 0;
+  }
+  footer {
+    height: 20vh;
+  }
+  footer .colorSec {
+    height: 10vh;
   }
 }
 
