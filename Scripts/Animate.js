@@ -1,20 +1,20 @@
-/* $(document).ready(() =>{
-  const elements;
-  const windowHeight;
+/* eslint-disable require-jsdoc */
+$(document).ready(()=>{
+  animateSingle('.Header img', 'mainAppear', 'mainHidden', 500);
 
-  elements = document.querySelectorAll('.hidden');
-  windowHeight = window.innerHeight;
-
+  animateSingle('.mainTitle', 'leftAppear', 'mainHidden', 4000);
 });
 
-$(document).onScroll(() =>{
-    for (var i = 0; i < elements.length; i++) {
-        var element = elements[i];
-        var positionFromTop = elements[i].getBoundingClientRect().top;
+function animateSingle(obj, sc, rc, t) {
+  setTimeout(() =>{
+    $(obj).addClass(sc).removeClass(rc);
+  }, t);
+}
 
-        if (positionFromTop - windowHeight <= 0) {
-          element.classList.add('fade-in-element');
-          element.classList.remove('hidden');
-        }
-      }
-});*/
+function animateGroup(obj, sc, rc, t) {
+
+  
+  setTimeout(() =>{
+    $(obj).addClass(sc).removeClass(rc);
+  }, t);
+}
