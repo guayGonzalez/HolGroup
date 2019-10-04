@@ -27,7 +27,7 @@ body{
     @include flex(space-between, center, row);
     position: absolute;
     z-index: 3;
-    animation: NavIntro 3s ease-in;
+    display: none;
 
     .logo{
 
@@ -156,7 +156,8 @@ body{
     margin-top: -15vh;
     display: flex;
     flex-direction: row;
-
+    @include AnimateShow(-100%, 0, 1s);
+    display: none;
 
     .Main{
 
@@ -748,6 +749,18 @@ footer{
     }
 
 }
+
+//animation Classes
+
+.mainHidden{ opacity: 0;}
+
+//main Appear
+
+.mainAppear{animation: mainAppear 4s ease-in-out;}
+
+// Appear from the left
+
+.leftAppear{animation: leftAppear 2s ease-in-out;}
 
 //Responsiveness
 
@@ -1555,21 +1568,37 @@ footer{
     }
 }
 
-@keyframes fadeInLeft{
+@keyframes mainAppear{
 
-    from{
+    0%{opacity: 0; transform: scale(1.5, 1.5) translateX(-25%)}
 
-        transform: translateX(-100%);
-        opacity: 0;
-        
-    }
+    50%{opacity: 1; transform: scale(1.5, 1.5) translateX(-25%)}
 
-    to{
+    100%{opacity: 1; transform: scale(1.0, 1.0) translateX(0)}
 
-        transform: translateX(0);
-        opacity: 1;
-        
-    }
+}
+
+@keyframes leftAppear{
+
+    from{opacity: 0; transform: translateX(-100%)}
+
+    to{opacity: 1; transform: translateX(0)}
+
+}
+
+@keyframes topAppear{
+
+    from{opacity: 0; transform: translateY(-100%)}
+
+    to{opacity: 1; transform: translateY(0)}
+
+}
+
+@keyframes show{
+
+    from{opacity: 0;}
+
+    to{opacity: 1;}
 
 }
 

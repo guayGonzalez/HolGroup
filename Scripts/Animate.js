@@ -1,35 +1,22 @@
 /* eslint-disable require-jsdoc */
-let elements;
-let windowHeight;
+$(document).ready(()=>{
+  animateSingle('.Header img', 'mainAppear', 'mainHidden', 500);
 
-function init() {
-  elements = document.querySelectorAll('.hidden');
+  animateSingle('.mainTitle', 'leftAppear', 'mainHidden', 4000);
 
-  windowHeight = window.innerHeight;
+  animateGroup('.menu ul li', 'x', 'x', 'x');
+});
+
+function animateSingle(obj, sc, rc, t) {
+  setTimeout(() =>{
+    $(obj).addClass(sc).removeClass(rc);
+  }, t);
 }
 
-function checkPosition() {
-  const news = document.getElementsByClassName('News');
+function animateGroup(objs, sc, rc, t) {
+  const objects = $(objs);
 
-  if (news[0].getBoundingClientRect().top - windowHeight <= -250) {
-    news[0].classList.add('fade-InLeft');
-    news[0].classList.remove('hiddenLeft');
-  }
-
-  for (let i = 0; i < elements.length; i++) {
-    const element = elements[i];
-
-    const posFromTop = elements[i].getBoundingClientRect().top;
-
-    if (posFromTop - windowHeight <= 0) {
-      element.classList.add('fade-In');
-      element.classList.remove('hidden');
-    }
+  for (let i = 0; i<objects.length; i++) {
+    console.log(objects[i]);
   }
 }
-
-window.addEventListener('scroll', checkPosition);
-
-init();
-checkPosition();
-
