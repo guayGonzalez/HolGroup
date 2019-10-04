@@ -3,6 +3,8 @@ $(document).ready(()=>{
   animateSingle('.Header img', 'mainAppear', 'mainHidden', 500);
 
   animateSingle('.mainTitle', 'leftAppear', 'mainHidden', 4000);
+
+  animateGroup('.menu ul li', 'x', 'x', 'x');
 });
 
 function animateSingle(obj, sc, rc, t) {
@@ -11,10 +13,10 @@ function animateSingle(obj, sc, rc, t) {
   }, t);
 }
 
-function animateGroup(obj, sc, rc, t) {
+function animateGroup(objs, sc, rc, t) {
+  const objects = $(objs);
 
-  
-  setTimeout(() =>{
-    $(obj).addClass(sc).removeClass(rc);
-  }, t);
+  for (let i = 0; i<objects.length; i++) {
+    console.log(objects[i]);
+  }
 }
