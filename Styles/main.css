@@ -230,6 +230,8 @@ body {
           flex-direction: row;
   position: absolute;
   z-index: 3;
+  -webkit-animation: NavIntro 3s ease-in;
+          animation: NavIntro 3s ease-in;
 }
 
 .Navbar .logo {
@@ -308,6 +310,8 @@ body {
   width: 60%;
   margin-left: 10%;
   z-index: 1;
+  -webkit-animation: fadeInLeft 2s ease-in;
+          animation: fadeInLeft 2s ease-in;
 }
 
 .Header .mainTitle h1 {
@@ -326,6 +330,8 @@ body {
      object-fit: contain;
   position: absolute;
   right: 5%;
+  -webkit-animation: mainImg 2s ease-in;
+          animation: mainImg 2s ease-in;
 }
 
 .News {
@@ -339,34 +345,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-animation: ShowIn 1s ease-in;
-          animation: ShowIn 1s ease-in;
-}
-
-@-webkit-keyframes ShowIn {
-  from {
-    opacity: 0;
-    -webkit-transform: translate(-100%, 0);
-            transform: translate(-100%, 0);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-  }
-}
-
-@keyframes ShowIn {
-  from {
-    opacity: 0;
-    -webkit-transform: translate(-100%, 0);
-            transform: translate(-100%, 0);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-  }
 }
 
 .News .Main {
@@ -558,21 +536,6 @@ body {
 
 .Experience {
   margin: 25vh 0 10vh 0;
-  -webkit-animation: ShowIn 1s ease-in;
-          animation: ShowIn 1s ease-in;
-}
-
-@keyframes ShowIn {
-  from {
-    opacity: 0;
-    -webkit-transform: translate(-100%, 0);
-            transform: translate(-100%, 0);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-  }
 }
 
 .Experience .Titles {
@@ -1595,6 +1558,56 @@ footer .colorSec {
   }
 }
 
+.fade-InLeft {
+  -webkit-animation: fadeInLeft 1.5s ease-in;
+          animation: fadeInLeft 1.5s ease-in;
+}
+
+.hiddenLeft {
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+}
+
+@-webkit-keyframes NavIntro {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes NavIntro {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes mainImg {
+  from {
+    -webkit-transform: scale(2, 2) translateX(-50%);
+            transform: scale(2, 2) translateX(-50%);
+  }
+  to {
+    -webkit-transform: scale(1, 1) translateX(0);
+            transform: scale(1, 1) translateX(0);
+  }
+}
+
+@keyframes mainImg {
+  from {
+    -webkit-transform: scale(2, 2) translateX(-50%);
+            transform: scale(2, 2) translateX(-50%);
+  }
+  to {
+    -webkit-transform: scale(1, 1) translateX(0);
+            transform: scale(1, 1) translateX(0);
+  }
+}
+
 @-webkit-keyframes float {
   0% {
     -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
@@ -1676,6 +1689,32 @@ footer .colorSec {
             box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
     -webkit-transform: translatey(0px);
             transform: translatey(0px);
+  }
+}
+
+@-webkit-keyframes fadeInLeft {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
   }
 }
 /*# sourceMappingURL=main.css.map */
