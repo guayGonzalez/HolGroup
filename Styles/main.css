@@ -285,6 +285,48 @@ body {
   border-color: #009AFF;
 }
 
+.Navbar .menuButton {
+  height: 70%;
+  max-height: 80px;
+  background: rgba(124, 124, 124, 0.6);
+  margin-right: 3vw;
+  border-radius: 50%;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  display: none;
+}
+
+.Navbar .menuButton span {
+  width: 30%;
+  height: 0px;
+  border: 1px solid white;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+  margin: 2px;
+}
+
+.Navbar .menuButton:hover {
+  background: #7c7c7c;
+}
+
+.Navbar .menuButton:hover span {
+  width: 50%;
+}
+
 .Header {
   background-color: #27272C;
   height: 100vh;
@@ -1173,11 +1215,58 @@ footer .colorSec {
 }
 
 @media only screen and (max-width: 600px) {
+  .openNav {
+    position: fixed;
+    height: 100vh !important;
+    width: 100vw;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .openNav .menu {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    width: 100vw !important;
+  }
+  .openNav .menu ul {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+  }
+  .openNav .menuButton {
+    position: absolute;
+    right: 3vw;
+    top: 1.5vh;
+  }
   .Navbar {
     width: 100vw;
-    height: 100vh;
+    height: 10vh;
     background-color: #27272C;
-    position: fixed;
+    position: static;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1191,10 +1280,9 @@ footer .colorSec {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    display: none;
   }
   .Navbar .logo {
-    height: 8vh;
+    height: 6vh;
     margin-top: 2vh;
     -ms-flex-item-align: start;
         align-self: flex-start;
@@ -1204,6 +1292,7 @@ footer .colorSec {
     height: 80vh;
     width: 100vw;
     margin: 0;
+    display: none;
   }
   .Navbar .menu ul {
     height: 100%;
@@ -1231,6 +1320,23 @@ footer .colorSec {
   .Navbar .menu ul li a {
     font-size: 1.6em;
   }
+  .Navbar .menuButton {
+    height: 7vh !important;
+    width: 7vh !important;
+    position: absolute;
+    right: 3vw;
+    top: 1.5vh;
+    margin: 0;
+    display: inherit;
+  }
+  .Navbar .menuButton span {
+    width: 30%;
+    height: 0px;
+    border: 2px solid white;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    margin: 2px;
+  }
   .Header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1245,6 +1351,7 @@ footer .colorSec {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 90vh;
   }
   .Header .mainTitle {
     margin: 0;

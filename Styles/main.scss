@@ -102,6 +102,45 @@ body{
 
     }
 
+    .menuButton{
+
+        height: 70%;
+        max-height: 80px;
+        background:rgba(124, 124, 124, 0.6);
+        margin-right: 3vw;
+        border-radius: 50%;
+        transition: all 0.2s ease-in-out;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        display: none;
+
+        span{
+
+            width: 30%;
+            height: 0px;
+            border: 1px solid white;
+            transition: all 0.2s linear;
+            margin: 2px;
+
+        }
+
+        &:hover{
+
+            background:rgba(124, 124, 124, 1);
+
+            span{
+
+                width: 50%;
+
+            }
+
+        }
+        
+    }
+
 
 }
 
@@ -1001,18 +1040,56 @@ footer{
 
 @media only screen and (max-width: 600px){
 
+.openNav{
+
+    position: fixed;
+    height: 100vh !important;
+    width: 100vw;
+    flex-direction: column-reverse;
+    justify-content: center;
+
+    .menu{
+
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        width: 100vw !important;
+
+        ul{
+
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 80vh;
+        margin: 0;
+        padding: 0;
+
+        }
+
+    }
+
+    .menuButton{
+
+        position: absolute;
+        right: 3vw;
+        top:1.5vh;
+
+    }
+
+}      
+
 .Navbar{
 
     width: 100vw;
-    height: 100vh;
+    height: 10vh;
     background-color: $superGrey;
-    position: fixed;
+    position: static;
     @include flex(flex-start, center, column);
-    display: none;
 
     .logo{
 
-        height: 8vh;
+        height: 6vh;
         margin-top: 2vh;
         align-self: flex-start;
         justify-self: flex-start;
@@ -1024,6 +1101,7 @@ footer{
         height: 80vh;
         width: 100vw;
         margin: 0;
+        display: none;
 
         ul{
 
@@ -1050,11 +1128,34 @@ footer{
 
     }
 
+    .menuButton{
+
+        height: 7vh !important;
+        width: 7vh !important;
+        position: absolute;
+        right: 3vw;
+        top: 1.5vh;
+        margin: 0;
+        display: inherit;
+
+        span{
+
+            width: 30%;
+            height: 0px;
+            border: 2px solid white;
+            transition: all 0.2s linear;
+            margin: 2px;
+
+        }
+
+    }
+
 }
 
 .Header{
 
     @include flex(flex-end, center, column);
+    height: 90vh;
 
     .mainTitle{
 
