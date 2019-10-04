@@ -230,7 +230,6 @@ body {
           flex-direction: row;
   position: absolute;
   z-index: 3;
-  display: none;
 }
 
 .Navbar .logo {
@@ -309,8 +308,6 @@ body {
   width: 60%;
   margin-left: 10%;
   z-index: 1;
-  -webkit-animation: fadeInLeft 2s ease-in;
-          animation: fadeInLeft 2s ease-in;
 }
 
 .Header .mainTitle h1 {
@@ -329,8 +326,6 @@ body {
      object-fit: contain;
   position: absolute;
   right: 5%;
-  -webkit-animation: mainImg 2s ease-in;
-          animation: mainImg 2s ease-in;
 }
 
 .News {
@@ -344,35 +339,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-animation: ShowIn 1s ease-in;
-          animation: ShowIn 1s ease-in;
-  display: none;
-}
-
-@-webkit-keyframes ShowIn {
-  from {
-    opacity: 0;
-    -webkit-transform: translate(-100%, 0);
-            transform: translate(-100%, 0);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-  }
-}
-
-@keyframes ShowIn {
-  from {
-    opacity: 0;
-    -webkit-transform: translate(-100%, 0);
-            transform: translate(-100%, 0);
-  }
-  to {
-    opacity: 1;
-    -webkit-transform: translate(0, 0);
-            transform: translate(0, 0);
-  }
 }
 
 .News .Main {
@@ -1108,6 +1074,16 @@ footer .colorSec {
   opacity: 0;
 }
 
+.topHidden {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.Appear {
+  -webkit-animation: show 2s ease-in-out;
+          animation: show 2s ease-in-out;
+}
+
 .mainAppear {
   -webkit-animation: mainAppear 4s ease-in-out;
           animation: mainAppear 4s ease-in-out;
@@ -1116,6 +1092,11 @@ footer .colorSec {
 .leftAppear {
   -webkit-animation: leftAppear 2s ease-in-out;
           animation: leftAppear 2s ease-in-out;
+}
+
+.topAppear {
+  -webkit-animation: topAppear 1s ease-in-out;
+          animation: topAppear 1s ease-in-out;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -1600,56 +1581,6 @@ footer .colorSec {
   }
 }
 
-.fade-InLeft {
-  -webkit-animation: fadeInLeft 1.5s ease-in;
-          animation: fadeInLeft 1.5s ease-in;
-}
-
-.hiddenLeft {
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
-}
-
-@-webkit-keyframes NavIntro {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes NavIntro {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes mainImg {
-  from {
-    -webkit-transform: scale(2, 2) translateX(-50%);
-            transform: scale(2, 2) translateX(-50%);
-  }
-  to {
-    -webkit-transform: scale(1, 1) translateX(0);
-            transform: scale(1, 1) translateX(0);
-  }
-}
-
-@keyframes mainImg {
-  from {
-    -webkit-transform: scale(2, 2) translateX(-50%);
-            transform: scale(2, 2) translateX(-50%);
-  }
-  to {
-    -webkit-transform: scale(1, 1) translateX(0);
-            transform: scale(1, 1) translateX(0);
-  }
-}
-
 @-webkit-keyframes float {
   0% {
     -webkit-box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
@@ -1797,12 +1728,12 @@ footer .colorSec {
 }
 
 @-webkit-keyframes topAppear {
-  from {
+  0% {
     opacity: 0;
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
   }
-  to {
+  100% {
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -1810,12 +1741,12 @@ footer .colorSec {
 }
 
 @keyframes topAppear {
-  from {
+  0% {
     opacity: 0;
     -webkit-transform: translateY(-100%);
             transform: translateY(-100%);
   }
-  to {
+  100% {
     opacity: 1;
     -webkit-transform: translateY(0);
             transform: translateY(0);
