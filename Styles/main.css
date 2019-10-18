@@ -1216,7 +1216,7 @@ footer .colorSec {
 
 @media only screen and (max-width: 600px) {
   .openNav {
-    position: fixed;
+    position: absolute !important;
     height: 100vh !important;
     width: 100vw;
     -webkit-box-orient: vertical;
@@ -1226,6 +1226,8 @@ footer .colorSec {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    background: #27272C;
+    z-index: 3;
   }
   .openNav .menu {
     display: -webkit-box !important;
@@ -1261,6 +1263,20 @@ footer .colorSec {
     position: absolute;
     right: 3vw;
     top: 1.5vh;
+    background: #7c7c7c !important;
+  }
+  .openNav .menuButton span {
+    width: 50% !important;
+    position: absolute !important;
+    margin: 0 !important;
+  }
+  .openNav .menuButton .l1 {
+    -webkit-transform: rotate(45deg) !important;
+            transform: rotate(45deg) !important;
+  }
+  .openNav .menuButton .l2 {
+    -webkit-transform: rotate(-45deg) !important;
+            transform: rotate(-45deg) !important;
   }
   .Navbar {
     width: 100vw;

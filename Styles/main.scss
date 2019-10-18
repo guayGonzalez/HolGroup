@@ -1042,11 +1042,13 @@ footer{
 
 .openNav{
 
-    position: fixed;
+    position: absolute !important;
     height: 100vh !important;
     width: 100vw;
     flex-direction: column-reverse;
     justify-content: center;
+    background: $superGrey;
+    z-index: 3;
 
     .menu{
 
@@ -1074,8 +1076,30 @@ footer{
         position: absolute;
         right: 3vw;
         top:1.5vh;
+        background:rgba(124, 124, 124, 1) !important;
+    
+        span{
+
+            width:50% !important;
+            position:absolute !important;
+            margin:0 !important;
+
+        }
+
+        .l1{
+
+            transform:rotate(45deg) !important;
+
+        }
+
+        .l2{
+
+            transform:rotate(-45deg) !important;
+
+        }
 
     }
+
 
 }      
 

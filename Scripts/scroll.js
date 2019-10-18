@@ -2,8 +2,6 @@
 /* eslint-disable require-jsdoc */
 const controller = new ScrollMagic.Controller();
 
-window.innerWidth > 600 ? Big() : Small();
-
 function Big() {
   // News Section
 
@@ -71,37 +69,37 @@ function Big() {
 
   // Contact Section
 
-  const tl6 = new TimelineMax();
+  if (window.innerWidth > 600) {
+    const tl6 = new TimelineMax();
 
-  tl6.from('.Contact .main h2', 1, {opacity: 0});
+    tl6.from('.Contact .main h2', 1, {opacity: 0});
 
-  new ScrollMagic.Scene({
-    triggerElement: '.Contact',
-    triggerHook: 0.75,
-  })
-      .setTween(tl6)
-      .addTo(controller);
+    new ScrollMagic.Scene({
+      triggerElement: '.Contact',
+      triggerHook: 0.75,
+    })
+        .setTween(tl6)
+        .addTo(controller);
 
-  const tl7 = new TimelineMax({onUpdate: updatePercentage});
+    const tl7 = new TimelineMax({onUpdate: updatePercentage});
 
-  tl7.from('.contForm', 1, {width: 0});
+    tl7.from('.contForm', 1, {width: 0});
 
-  new ScrollMagic.Scene({
-    triggerElement: '.Contact',
-    triggerHook: 0.60,
-    duration: '30%',
-  })
-      .setTween(tl7)
-      .addTo(controller);
+    new ScrollMagic.Scene({
+      triggerElement: '.Contact',
+      triggerHook: 0.60,
+      duration: '40%',
+    })
+        .setTween(tl7)
+        .addTo(controller);
+  }
+
+
+  function updatePercentage() {
+    tl.progress();
+  }
 }
 
-function Small() {
+Big();
 
-
-}
-
-
-function updatePercentage() {
-  tl.progress();
-}
 
